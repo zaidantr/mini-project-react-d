@@ -1,11 +1,11 @@
 import React from 'react'
-import Navbar from './Navbar';
-import Hero from './Hero';
-import Partnership from './Partnership';
-import Achieve from './Achieve';
-import Review from './Review';
-import Form from './Form';
-import Footer from './Footer';
+import Navbar from '../landingpage/Navbar';
+import Hero from '../landingpage/Hero';
+import Partnership from '../landingpage/Partnership';
+import Achieve from '../landingpage/Achieve';
+import Review from '../landingpage/Review';
+import Form from '../landingpage/Form';
+import Footer from '../landingpage/Footer';
 
 export default function Home() {
   return (

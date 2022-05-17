@@ -2,8 +2,8 @@ import React from 'react';
 import './App.css';
 import {Route, BrowserRouter as Router, Routes, Link} from 'react-router-dom'
 import Home from './components/Home';
-import Login from './components/Login';
-import SignUp from './components/SignUp';
+import Login from './register/Login';
+import SignUp from './register/SignUp';
 import Error from './components/Error';
 import Pomodoro from './components/Pomodoro';
 

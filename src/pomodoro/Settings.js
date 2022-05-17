@@ -18,7 +18,7 @@ export default function Settings() {
             value={settingsInfo.workMinutes}
             onChange={newValue => settingsInfo.setWorkMinutes(newValue)}
             min={1}
-            max={120}
+            max={30}
         />
 
         <label className='text-2xl block mb-10 capitalize' >Break: {settingsInfo.breakMinutes}:00</label>
@@ -29,7 +29,7 @@ export default function Settings() {
             value={settingsInfo.breakMinutes}
             onChange={newValue => settingsInfo.setBreakMinutes(newValue)}
             min={1}
-            max={120}
+            max={30}
       />
         <div style={{textAlign:'center', marginTop:'20px'}}>
             <BackButton 

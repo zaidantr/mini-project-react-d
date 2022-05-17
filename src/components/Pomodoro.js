@@ -3,6 +3,7 @@ import Settings from '../pomodoro/Settings';
 import Timer from '../pomodoro/Timer';
 import { useState } from 'react';
 import SettingsContext from '../pomodoro/SettingsContext';
+import AudioPlayer from '../audioplayer/AudioPlayer';
 
 function Pomodoro() {
 
@@ -11,6 +12,7 @@ function Pomodoro() {
   const [breakMinutes, setBreakMinutes] = useState(1);
 
   return (
+    <>
       <section className='bg-orange-50 p-10'>
         <main className='pt-50 max-w-md mx-auto my-0 text-center'>
           <SettingsContext.Provider value={{
@@ -20,11 +22,13 @@ function Pomodoro() {
               breakMinutes,
               setWorkMinutes,
               setBreakMinutes,
-          }}>
+            }}>
               {showSettings ? <Settings /> : <Timer/>}
           </SettingsContext.Provider>
         </main>
+        <AudioPlayer/>
       </section>
+            </>
   );
 }
 
