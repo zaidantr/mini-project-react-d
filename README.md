@@ -13,8 +13,7 @@ Desain Figma ada di link: https://www.figma.com/file/ybHUyuV6arIVaMkhhmUh7V/Mini
 Link Presentasi GSlide: 
 https://docs.google.com/presentation/d/1hneNUNG-D3HjwvI-3cjhY5OYfqH7-Y7QrTt4D3EQgiw/edit?usp=sharing
 
-Apabila hanya ingn melihat website bisa langsung klik:
-https://zaidantr-mini-project-react-d.netlify.app/
-
-Namun, hasil deploy masih belum sempurna. Apabila ingin sempurna bisa langsung menclone saja.
+Apabila hanya ingin melihat website bisa langsung klik:
+https://mini-project-react-d.vercel.app (Halaman Utama)
+https://mini-project-react-d.vercel.app/pomodoro (Halaman Pomodoro)
 
